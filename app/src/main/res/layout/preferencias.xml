@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <PreferenceCategory android:title="preferencias">
+
+        <CheckBoxPreference
+            android:dialogTitle= "Informe um limite"
+            android:key= "valor_limite"
+            android:defaultValue="80"
+            android:summary="Valor limite sumario"
+            android:title="valor limite"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#666"
+    tools:context="br.com.nrbsistemas.appaps.LoginActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/img_login"
+        android:src="@drawable/homernu"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+         android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/edt_login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btn_logar"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.nrbsistemas.appaps.DashBoardActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minhas viajens"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/img_novo_gasto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:drawableTop="@drawable/money"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:text="Novo gasto"
+            android:onClick="selecione"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/img_nova_viajem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/pencil"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp"
+            android:clickable="true"
+            android:text="Nova viajem"
+            android:onClick="selecione"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/img_minhas_viajens"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/list"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:text="Minhas viajens"
+            android:onClick="selecione"/>
+        <TextView
+            android:id="@+id/img_configuracoes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/confi"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:clickable="true"
+            android:text="configurações"
+            android:gravity="center"
+            android:onClick="selecione"/>
+    </LinearLayout>
+</LinearLayout>

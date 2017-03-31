@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_novo_gasto"
+        android:icon="@drawable/ic_assignment_returned_black_24dp"
+        android:title="Adicionar"/>
+    <item
+        android:id="@+id/menu_remover"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="Remover"/>
+</menu>

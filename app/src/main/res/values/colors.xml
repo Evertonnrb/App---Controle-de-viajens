@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitulo">#015488</color>
+    <color name="color_alimentaca">#9fc5f8</color>
+    <color name="color_hospedagem">#6fa8dc</color>
+    <color name="color_transporte">#0099cc</color>
+    <color name="color_outros">#acbfd5</color>
+
+
+</resources>

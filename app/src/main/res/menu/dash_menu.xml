@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_sair"
+        android:icon="@drawable/ic_eject_black_24dp"
+        android:title="sair"/>
+    <group
+        android:id="@+id/grupo_menu_sair">
+        <item android:id="@+id/sub_menu_sim"
+            android:title="sim"/>
+        <item android:id="@+id/sub_menu_sair_nao"
+            android:title="não"/>
+    </group>
+</menu>
